@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        .dashboard .container  .panel-group
+        {
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Beginning of Navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Shopping List</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"> Logout </a></li>
+        </ul>
+    </div>
+</nav>
+<!-- End of Navbar -->
+<!-- Beginning of Container -->
+<div class="dashboard">
+    <div class="container">
+        <div class="panel panel-group">
+            <div class="panel panel-primary">
+                <div class="panel panel-heading">Shopping Lists</div>
+                <div class="panel panel-body">
+                <!-- Beginning of Table -->
+                    <button type="button" class="btn btn-primary ">Add Shopping List</button> <br>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr> <br> </tr>
+                        <tr>
+                            <td>Fruits</td>
+                            <td> <a href="#"> View </a> </td>
+                            <td> <a href="#"> Update </a> </td>
+                            <td><a href="#"> Delete </a> </td>
+                        </tr>
+                        <tr>
+                            <td> Books</td>
+                            <td> <a href="#"> View </a> </td>
+                            <td><a href="#"> Update</a> </td>
+                            <td> <a href="#"> Delete </a> </td>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of Container -->
+
+
+</body>
+</html>
