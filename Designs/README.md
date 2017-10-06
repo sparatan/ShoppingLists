@@ -1,2 +1,0 @@
-# ShoppingLists
-initialized shopping lists
